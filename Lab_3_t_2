@@ -1,0 +1,12 @@
+import Lab_3_t_1 as con
+import math
+
+alfa = ((math.pi)/3)
+betta = ((math.pi)/6)
+h=100
+
+a = (con.g)*h*(((math.tan(betta))**2))
+
+b = 2*((math.cos(alfa))**2)*(1-(math.tan(betta))*(math.tan(alfa)))
+V = (math.sqrt(a/b))
+print(V)
